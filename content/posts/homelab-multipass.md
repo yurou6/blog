@@ -86,7 +86,7 @@ sudo reboot   # 重開機會斷線，自動回到 Mac
 
 ## 4. 讓 VM 之間互相認得：/etc/hosts
 
-Mac 認得 `master`，是因為 `~/.ssh/config`；但 VM 之間還不認得彼此的名字，要在每台的 `/etc/hosts` 登記。
+在 Mac 上能用 `ssh master`，是靠 `~/.ssh/config`；但 VM 之間還不認得彼此的名字，要在每台的 `/etc/hosts` 登記。
 
 ### 發現：/etc/hosts 由 cloud-init 管理
 
